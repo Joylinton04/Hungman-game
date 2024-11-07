@@ -52,7 +52,7 @@ const checkLetter = (e) => {
         }
     }
     guesses.innerHTML = `Incorrect guesses: ${incorrectguess} / ${guessLimit}`
-    img.src=`../assets/hangman-${incorrectguess}.svg`
+    img.src=`./assets/hangman-${incorrectguess}.svg`
 }
 window.addEventListener("keydown", checkLetter)
 
